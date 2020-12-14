@@ -48,9 +48,7 @@
       getBalance: function(){
           if(this.$route.name != "user_balance"){
             let username = localStorage.getItem("current_username")
-            this.$router.push({ name:"user_balance",
-                                params:{username:username}
-                              })
+            this.$router.push({ name:"user_balance", params:{username:username} })
           }
         },
       },
