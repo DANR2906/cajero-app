@@ -10,10 +10,10 @@
     export default {
         name: 'UserBalance',
         data: function (){
-        return {
-        username: "",
-        balance: 0
-        }
+            return {
+                username: "",
+                balance: 0
+            }
         },
         created: function(){
             this.username = this.$route.params.username
